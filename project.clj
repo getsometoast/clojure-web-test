@@ -9,6 +9,7 @@
                  [ring/ring-jetty-adapter "1.2.1"]
                  [compojure "1.1.6"]
                  [hiccup "1.0.4"]
+                 [org.clojure/data.json "0.2.4"]
                  ]
   :main ^:skip-aot clojure-web-test.core
   :uberjar-name "webtest-standalone.jar"
