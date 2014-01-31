@@ -10,6 +10,7 @@
                  [compojure "1.1.6"]
                  [hiccup "1.0.4"]
                  [org.clojure/data.json "0.2.4"]
+                 [clj-statsd "0.3.10"]
                  ]
   :main ^:skip-aot clojure-web-test.core
   :uberjar-name "webtest-standalone.jar"
